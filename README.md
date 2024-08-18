@@ -1,66 +1,27 @@
+# BudgetPlanner
 
-# Budget Planner using angular
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
-## Description
+## Development server
 
-The Budget Planner is a personal finance management application developed with Angular. It provides a comprehensive overview of your financial status through a Dashboard, Profile management, and detailed Previous History. The application includes secure functionality for exiting the application.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Features
+## Code scaffolding
 
-- **Dashboard**:
-  - **Total Income**: View the total income recorded.
-  - **Expenses**: Track and display your expenses.
-  - **Recent Transactions**: Review recent financial transactions.
-  - **To-Dos**: Manage and view your financial to-dos.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- **Profile**:
-  - **User Information**: Displays and allows updates to user info, including age group and gender.
+## Build
 
-- **Previous History**:
-  - **Transaction History**: Lists detailed past transactions.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- **Secure Exit**:
-  - **Logout Functionality**: Provides a secure option to exit the application.
+## Running unit tests
 
-## Technologies Used
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- **Frontend**: Angular (for application development)
-- **Styling**: CSS/SCSS
-- **Backend**: (Specify if applicable, e.g., a backend service or API)
+## Running end-to-end tests
 
-## Installation
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/budget-planner.git
-2.**Navigate to the project directory**:
-   cd budget-planner
-3.**Install dependencies**:
-   npm install
-4.**Start the application**:
-    ng serve
-5.Open the application in your browser at http://localhost:4200.  
-## Usage
-**Dashboard**: Access the dashboard to view your total income, expenses, recent transactions, and to-dos.
-**Profile**: View and update your user information, including age group and gender.
-**Previous History**: Navigate to the history section to see detailed past transactions.
-**Secure Exit**: Use the logout functionality to securely exit the application.
-## Configuration
-Environment Variables: Configure any necessary environment variables in the src/environments/ directory.
+## Further help
 
-## Contributing
-    1.**Fork the repository**.
-    2.**Create a new branch**:
-          git checkout -b feature-branch
-    3.**Commit your changes**:
-          git commit -am 'Add new feature'
-    4.**Push to the branch**:
-          git push origin feature-branch
-    5.**Create a new Pull Request on GitHub.**
-
-
-## License
-  This project is licensed under the MIT License - see the LICENSE file for details.
-## Acknowledgments
-  Angular Team: For the framework that powers this application.
-  Bootstrap/CSS: For styling the application.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
